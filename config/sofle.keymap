@@ -16,11 +16,6 @@
 #define ADJUST 3
 
 / {
-    chosen {
-        zmk,underglow = &led_strip;
-    };
-  };
-  {
 
    // Activate ADJUST layer by pressing raise and lower
     conditional_layers {
